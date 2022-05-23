@@ -1,0 +1,70 @@
+body{
+    border: none;
+    background-color: rgb(17, 17, 19);
+    padding: 0;
+    margin: 0;
+}
+
+#mainVideo{
+    height: 100vh;
+    width: auto;
+    position: fixed;
+    left: 50%;
+    transform: translate(-50%,0);
+    animation-duration: 1s;
+}
+#tridentVideo{
+    height: 100vh;
+    width: auto;
+    position: fixed;
+    left: 50%;
+    transform: translate(-50%,0);
+    animation-duration: 1s;
+}
+#keyVideo{
+    height: 100vh;
+    width: auto;
+    position: fixed;
+    left: 50%;
+    transform: translate(-50%,0);
+    animation-duration: 1s;
+}
+
+
+#tridentButton{
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    color: black;
+    height: 100vh;
+    width: 20vw;
+    font-size: 4em;
+    top: 0;
+    left: 0;
+    position: fixed;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;  
+    z-index: 100;    
+}
+#tridentButton:hover{
+    background-image:linear-gradient(to right, white , Transparent);
+}
+
+#keyButton{
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    color: black;
+    font-size: 4em;
+    height: 100vh;
+    width: 20vw;
+    top: 0;
+    right: 0;
+    position: fixed;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;  
+    z-index: 100;    
+}
+#keyButton:hover{
+    background-image:linear-gradient(to left, white , Transparent);
+}
